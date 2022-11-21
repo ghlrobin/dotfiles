@@ -5,7 +5,7 @@ sudo apt-get install -y vim curl awscli python3-pip tmux fonts-powerline git-lfs
 sudo apt -y autoremove
 pip3 install -U pip && pip3 install -U awscli  # For fixing awscli issue
 pip3 install nvitop
-
+pip3 install gpustat
 # Install zsh
 sudo apt-get install -y zsh
 sudo chsh -s /bin/zsh "$USER"

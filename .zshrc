@@ -76,9 +76,9 @@ plugins=(
     zsh-autosuggestions
     docker
     docker-compose
-    kubectl
-    systemd
-    poetry
+    # kubectl
+    # systemd
+    # poetry
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -112,7 +112,6 @@ export PYTHONIOENCODING=UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Personal NAS
-alias nas='aws --endpoint-url https://minio.monologg.synology.me --region ap-northeast-2 s3'
+
 
 export PATH="/home/${USER}/.local/bin:$PATH"

@@ -1,3 +1,5 @@
+apt-get install sudo
+
 # Basic Setting
 sudo apt-get update
 # sudo apt-get -y upgrade

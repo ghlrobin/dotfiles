@@ -50,5 +50,6 @@ git config --global core.editor "code --wait"
 # github lg alias
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
-# Download anaconda script
+# Download and install anaconda script
 wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh
+zsh Anaconda3-2022.10-Linux-x86_64.sh

@@ -71,11 +71,11 @@ ZSH_THEME="spaceship"
 plugins=(
     git
     tmux
-    python
+    # python
     zsh-syntax-highlighting
     zsh-autosuggestions
-    docker
-    docker-compose
+    # docker
+    # docker-compose
     # kubectl
     # systemd
     # poetry

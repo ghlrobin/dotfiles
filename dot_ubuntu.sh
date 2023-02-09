@@ -1,7 +1,8 @@
-apt-get install sudo
+
 
 # Basic Setting
-sudo apt-get update
+apt-get update
+apt-get install sudo
 # sudo apt-get -y upgrade
 sudo apt-get install -y vim curl awscli python3-pip tmux fonts-powerline git-lfs tree
 sudo apt -y autoremove

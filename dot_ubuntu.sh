@@ -11,6 +11,10 @@ pip install -U pip && pip install -U awscli  # For fixing awscli issue
 sudo apt-get install -y zsh
 sudo chsh -s /bin/zsh "$USER"
 
+apt install -y locales
+locale-gen en_US.UTF-8
+
+
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 

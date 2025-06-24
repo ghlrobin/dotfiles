@@ -4,9 +4,10 @@
 apt-get update
 apt-get install sudo
 # sudo apt-get -y upgrade
-sudo apt-get install -y vim curl awscli python3-pip tmux fonts-powerline git-lfs tree htop gpustat wget
+sudo apt-get install -y vim curl awscli python3-pip tmux fonts-powerline git-lfs tree htop wget
 sudo apt -y autoremove
 pip install -U pip && pip install -U awscli  # For fixing awscli issue
+pip install gpustat
 # Install zsh
 sudo apt-get install -y zsh
 sudo chsh -s /bin/zsh "$USER"
